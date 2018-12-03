@@ -6,6 +6,8 @@ SELECT * FROM albums
 WHERE release_date > '1991';
 
 
+
+
 -- Albums with the genre 'disco'
 SELECT * FROM albums
 WHERE genre = 'disco';
@@ -19,6 +21,9 @@ WHERE artist = 'Pink Floyd';
 
 
 # DELETEs
+
+SELECT * FROM albums
+WHERE release_date > '1991';
 
 DELETE FROM albums
 WHERE release_date > '1991';
